@@ -1,12 +1,12 @@
 import React from "react"
 
-// {img="https://via.placeholder.com/215"}
-const About = (props) => {
-
+// {img="https://via.placeholder.com/215", about}
+const About = ({image="https://via.placeholder.com/215", about}) => {
+  console.log(about)
   return (
     <aside>
-      <img src={props.img} alt="blog Logo"/>
-      <p>{props.about}</p>
+      <img src={image} alt="blog logo"/>
+      <p>{about}</p>
     </aside>
   )
 }

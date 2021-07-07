@@ -1,9 +1,9 @@
 
 import React from "react"
 
-const Article = (props) => {
+const Article = ({title, date="January 1, 1970", preview}) => {
 
-  const {post: {title, date="January 1, 1970", preview}} = props
+  //const  {title, date="January 1, 1970", preview} = props
 
   return (
     <article>
