@@ -1,8 +1,10 @@
 
 import React from "react"
 
-const Article = ({post:{title, date="January 1, 1970", preview}}) => {
-  console.log(title)
+const Article = (props) => {
+
+  const {post: {title, date="January 1, 1970", preview}} = props
+
   return (
     <article>
       <h3>{title}</h3>

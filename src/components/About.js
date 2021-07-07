@@ -5,7 +5,7 @@ const About = (props) => {
 
   return (
     <aside>
-      <img src={props.img} alt="Blog Logo"/>
+      <img src={props.img} alt="blog Logo"/>
       <p>{props.about}</p>
     </aside>
   )
