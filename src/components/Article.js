@@ -2,7 +2,7 @@
 import React from "react"
 
 const Article = (props) => {
-
+  console.log(props)
   const {post: {title, date="January 1, 1970", preview}} = props
 
   return (

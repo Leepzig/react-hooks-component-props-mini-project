@@ -50,7 +50,7 @@ test("uses a default value for the date if no date is passed as a prop", () => {
   expect(small).toBeInTheDocument();
 });
 
-test("renders a <p> with the preview text", () => {
+test.only("renders a <p> with the preview text", () => {
   render(
     <Article
       title={"Components 101"}
