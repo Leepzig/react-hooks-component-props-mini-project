@@ -11,7 +11,7 @@ function App() {
 
     <div className="App">
       <Header name={blogData.name} />
-      <About about={blogData.about} img={blogData.img}/>
+      <About about={blogData.about} image={blogData.image}/>
       <ArticleList posts={blogData.posts} />
 
       You're on your own from here! Follow the deliverables; test things out in

@@ -2,7 +2,7 @@ import React from "react"
 
 // {img="https://via.placeholder.com/215", about}
 const About = ({image="https://via.placeholder.com/215", about}) => {
-  console.log(about)
+  
   return (
     <aside>
       <img src={image} alt="blog logo"/>
